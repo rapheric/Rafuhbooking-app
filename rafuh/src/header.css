@@ -1,0 +1,109 @@
+.header{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+.headerTitle{
+   margin: 10px 0;
+}
+.hedadesc{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerDisc{
+    margin :20px 0;
+
+}
+.headerbtn{
+border: none;
+font-weight: 400;
+color:white;
+background-color: blueviolet;
+padding: 10px;
+cursor: pointer;
+display: flex;
+align-self: flex-start;
+margin-bottom: 30px;
+border-radius: 50px;
+}
+.headerbtnn{
+ border: none;
+font-weight: 400;
+color:white;
+background-color: blueviolet;
+padding: 10px;
+cursor: pointer;
+}
+.headerSearch{
+    height: 30px;
+    border: 3px solid yellow;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.headersearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.headerSearchText{
+    color: white;
+    cursor: pointer;
+}
+.options{
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: grey;
+    width:220px;
+    height: max-content;
+    padding:5px 7px;
+}
+.optionsItem{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+
+}
+.optionsCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+.optionsCounterbtn{
+    height: 30px;
+    width: 30px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    padding: 2px;
+    border: 2px solid blue;
+}
+.optionsCounterbtn disabled{
+    cursor: not-allowed;
+}
+

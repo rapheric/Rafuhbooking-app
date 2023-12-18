@@ -1,0 +1,49 @@
+.searchContainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.searchItem{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.siImg{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.siDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex:2;
+}
+.siTitle{
+    font-size: 20px;
+    color: blueviolet;
+}
+.siTaxiOp{
+    font-size: 12px;
+    background-color: greenyellow;
+    color: white;
+    width: max-content;
+    padding: 3px;
+    border-radius: 2px;
+}
+.siSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.siFeatures{
+    font-size: 12px;
+}
+.siDetails{
+    font-size: 12px;
+}
